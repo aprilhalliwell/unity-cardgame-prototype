@@ -1,0 +1,35 @@
+{
+    "Name": {
+        "Text": "Smelt"
+    },
+    "GameText": {
+        "Text": "Deal 2 Damage and Draw 2 Cards"
+    },
+    "CardImage": {
+        "ImagePath": "Simple Icons/Cercle/Glove_3_Cercle"
+    },
+    "Resource": {
+        "Items": [
+            {
+                "ResourceTypes": 0,
+                "Cost": 2
+            }
+        ]
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "DrawCard",
+                "Amount": 2,
+                "Target": 0,
+                "EffectName": "drawCard"
+            },
+            {
+                "ScriptName": "DealDamage",
+                "Amount": 2,
+                "Target": 1,
+                "EffectName": "fireDamage"
+            }
+        ]
+    }
+}

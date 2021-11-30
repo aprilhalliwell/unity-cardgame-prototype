@@ -1,0 +1,36 @@
+{
+    "Name": {
+        "Text": "Centrifuge"
+    },
+    "GameText": {
+        "Text": "Deal 3 damage to all enemies and Draw 1 card."
+    },
+    "CardImage": {
+        "ImagePath": "package_potions_512x/potion_icons_512x/512x_jug_glass_empty"
+    },
+    "Resource": {
+        "Items": [
+            {
+                "ResourceTypes": 0,
+                "Cost": 4
+            }
+        ]
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "DealDamageToAll",
+                "Amount": 3,
+                "Target": 1
+            },
+            {
+                "ScriptName": "DrawCard",
+                "Amount": 1,
+                "Target": 0
+            }
+        ]
+    },
+    "Effect": {
+        "Text": ""
+    }
+}

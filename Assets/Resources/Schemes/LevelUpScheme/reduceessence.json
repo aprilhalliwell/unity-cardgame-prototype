@@ -1,0 +1,14 @@
+{
+    "Name": {
+        "Text": "Reduce Essence"
+    },
+    "Description": {
+        "Text": "For the first 4 spells reduce Essence costs by 1"
+    },
+    "Image": {
+        "ImagePath": "Simple Icons/Cercle/Wand_Cercle"
+    },
+    "LevelUpItem": {
+        "Text": ""
+    }
+}

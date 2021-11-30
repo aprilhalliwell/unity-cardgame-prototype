@@ -1,0 +1,42 @@
+{
+    "Name": {
+        "Text": "Honey Comb"
+    },
+    "GameText": {
+        "Text": "Gain 5 Block, Gain 6 Stamina, Deal 3 Damage, and Draw a Card"
+    },
+    "CardImage": {
+        "ImagePath": "herbs/sprites",
+        "SpriteName": "sprites_6"
+    },
+    "Resource": {
+        "Items": []
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "DealDamage",
+                "Amount": 3,
+                "Target": 1
+            },
+            {
+                "ScriptName": "GrantBlock",
+                "Amount": 5,
+                "Target": 0
+            },
+            {
+                "ScriptName": "GrantStamina",
+                "Amount": 6,
+                "Target": 0
+            },
+            {
+                "ScriptName": "DrawCard",
+                "Amount": 1,
+                "Target": 0
+            }
+        ]
+    },
+    "Effect": {
+        "Text": ""
+    }
+}

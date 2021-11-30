@@ -1,0 +1,14 @@
+{
+    "Name": {
+        "Text": "Essence Per Turn"
+    },
+    "Description": {
+        "Text": "Increase Essence gained per turn by 1"
+    },
+    "Image": {
+        "ImagePath": "Simple Icons/Cercle/Hourglass_Cercle"
+    },
+    "LevelUpItem": {
+        "Text": ""
+    }
+}

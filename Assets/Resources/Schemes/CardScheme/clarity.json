@@ -1,0 +1,30 @@
+{
+    "Name": {
+        "Text": "Clarity"
+    },
+    "GameText": {
+        "Text": "Draw a Card and Gain 3 Stamina"
+    },
+    "CardImage": {
+        "ImagePath": "Simple Icons/Cercle/Hourglass_Cercle"
+    },
+    "Resource": {
+        "Items": []
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "DrawCard",
+                "Amount": 1,
+                "Target": 0,
+                "EffectName": "drawCard"
+            },
+            {
+                "ScriptName": "GrantStamina",
+                "Amount": 3,
+                "Target": 0,
+                "EffectName": "increaseStamina"
+            }
+        ]
+    }
+}

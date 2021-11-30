@@ -1,0 +1,42 @@
+{
+    "Name": {
+        "Text": "Guide to Containers"
+    },
+    "Description": {
+        "Text": ""
+    },
+    "Image": {
+        "ImagePath": "Spritesheets/spritesheet_48x48",
+        "SpriteName": "spritesheet_48x48_27"
+    },
+    "Cards": {
+        "Items": [
+            "centrifuge",
+            "take_sample",
+            "take_sample",
+            "night_cap",
+            "night_cap",
+            "night_cap"
+        ]
+    },
+    "LevelUps": {
+        "Items": [
+            "maxhealth",
+            "maxhealth",
+            "maxhealth",
+            "maxhealth",
+            "maxhealth",
+            "maxhealth",
+            "maxhealth",
+            "maxhealth",
+            "maxhealth",
+            "maxhealth"
+        ]
+    },
+    "BundleType": {
+        "CardBundleType": 1
+    },
+    "PrimaryResouce": {
+        "Resource": 1
+    }
+}

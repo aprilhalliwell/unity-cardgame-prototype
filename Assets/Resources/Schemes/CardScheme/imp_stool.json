@@ -1,0 +1,37 @@
+{
+    "Name": {
+        "Text": "Imp Stool"
+    },
+    "GameText": {
+        "Text": " Stun all Enemies, Gain 5 Block and Draw 2 Cards"
+    },
+    "CardImage": {
+        "ImagePath": "herbs/sprites",
+        "SpriteName": "sprites_8"
+    },
+    "Resource": {
+        "Items": []
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "StunAll",
+                "Amount": 0,
+                "Target": 1
+            },
+            {
+                "ScriptName": "GrantBlock",
+                "Amount": 5,
+                "Target": 0
+            },
+            {
+                "ScriptName": "DrawCard",
+                "Amount": 2,
+                "Target": 0
+            }
+        ]
+    },
+    "Effect": {
+        "Text": ""
+    }
+}

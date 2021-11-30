@@ -1,0 +1,56 @@
+﻿using Assets.Scheme;
+using Assets.Scheme.Traits;
+using Assets.Scheme.Traits.BaseTraits;
+using System;
+using System.IO;
+using UnityEngine;
+
+/// <summary>
+/// The character scheme. Reads a json file to create an instance of this class.
+/// </summary>
+[Serializable]
+public class CharacterScheme : Scheme
+{
+  /// <summary>
+  /// The initial health of the character
+  /// </summary>
+  public IntTrait Hornyness = new IntTrait(0);
+  /// <summary>
+  /// The initial energy of the character
+  /// </summary>
+  public IntTrait Energy = new IntTrait(0);
+  /// <summary>
+  /// The name of the character
+  /// </summary>
+  public StringTrait Name = new StringTrait("");
+  /// <summary>
+  /// Descriptive information about the character
+  /// </summary>
+  public StringTrait Description = new StringTrait("");
+  /// <summary>
+  /// An icon that represents this character
+  /// </summary>
+  public TextureTrait Icon = new TextureTrait(null);
+
+
+  /// <summary>
+  /// Given a scheme name generate a character scheme class
+  /// </summary>
+  /// <param name="Name">Name of a character scheme</param>
+  /// <returns></returns>
+  static public CharacterScheme CreateCharacter(string Name)
+  {
+    string filePath = string.Concat(Application.persistentDataPath, "/Scheme/", Name);
+    string scheme = "";
+    if(File.Exists(filePath))
+    {
+      scheme = File.ReadAllText(filePath);
+    }
+    else
+    {
+      scheme = Resources.Load<TextAsset>("Schemes/" + Name).text;
+    }
+    var instance = JsonUtility.FromJson<CharacterScheme>(scheme);
+    return instance;
+  }
+}

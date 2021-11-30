@@ -1,0 +1,14 @@
+{
+    "Name": {
+        "Text": "Increase Max Stamina"
+    },
+    "Description": {
+        "Text": "Increase Max Stamina by 1"
+    },
+    "Image": {
+        "ImagePath": "Simple Icons/Cercle/Boot_1_Cercle"
+    },
+    "LevelUpItem": {
+        "Text": ""
+    }
+}

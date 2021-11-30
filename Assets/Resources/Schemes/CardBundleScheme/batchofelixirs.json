@@ -1,0 +1,39 @@
+{
+    "Name": {
+        "Text": "Batch of Elixirs"
+    },
+    "Description": {
+        "Text": "A large batch of useful elixirs fill your pack. It contains many tricks to keep you alive."
+    },
+    "Image": {
+        "ImagePath": "Spritesheets/spritesheet_48x48",
+        "SpriteName": "spritesheet_48x48_16"
+    },
+    "Cards": {
+        "Items": [
+            "potion_toss",
+            "potion_toss",
+            "potion_toss",
+            "potion_toss",
+            "alchemists_fire",
+            "stink_bomb"
+        ]
+    },
+    "LevelUps": {
+        "Items": [
+            "maxhealth",
+            "maxhealth",
+            "maxhealth",
+            "maxessence",
+            "maxstamina",
+            "maxessence",
+            "maxstamina",
+            "maxhealth",
+            "maxhealth",
+            "maxessence"
+        ]
+    },
+    "BundleType": {
+        "CardBundleType": 2
+    }
+}

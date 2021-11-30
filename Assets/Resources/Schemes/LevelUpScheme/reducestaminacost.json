@@ -1,0 +1,14 @@
+{
+    "Name": {
+        "Text": "Reduce Stamina Costs"
+    },
+    "Description": {
+        "Text": "For the first 4 turns each battle reduce Stamina costs by 1"
+    },
+    "Image": {
+        "ImagePath": "Simple Icons/Cercle/Bag_Cercle"
+    },
+    "LevelUpItem": {
+        "Text": ""
+    }
+}

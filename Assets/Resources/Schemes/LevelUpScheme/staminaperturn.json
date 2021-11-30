@@ -1,0 +1,14 @@
+{
+    "Name": {
+        "Text": "Stamina Per Turn"
+    },
+    "Description": {
+        "Text": "Increase Stamina gained per turn  by 1"
+    },
+    "Image": {
+        "ImagePath": "Simple Icons/Cercle/Boot_3_Cercle"
+    },
+    "LevelUpItem": {
+        "Text": ""
+    }
+}

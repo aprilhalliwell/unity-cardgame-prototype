@@ -1,0 +1,14 @@
+{
+    "Name": {
+        "Text": "Increase Max Essence"
+    },
+    "Description": {
+        "Text": "Increase Max Essence by 1"
+    },
+    "Image": {
+        "ImagePath": "Simple Icons/Cercle/Hourglass_Cercle"
+    },
+    "LevelUpItem": {
+        "Text": ""
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "Name": {
+        "Text": "Batch of Herbs"
+    },
+    "Description": {
+        "Text": ""
+    },
+    "Image": {
+        "ImagePath": "Spritesheets/spritesheet_48x48",
+        "SpriteName": "spritesheet_48x48_23"
+    },
+    "Cards": {
+        "Items": [
+            "vefiram",
+            "vefiram",
+            "vefiram",
+            "foamcap",
+            "foamcap",
+            "foamcap"
+        ]
+    },
+    "LevelUps": {
+        "Items": [
+            "maxhealth",
+            "maxhealth",
+            "maxhealth",
+            "maxhealth",
+            "maxhealth",
+            "maxhealth",
+            "maxhealth",
+            "maxhealth",
+            "maxhealth",
+            "maxhealth"
+        ]
+    },
+    "BundleType": {
+        "CardBundleType": 2
+    },
+    "PrimaryResouce": {
+        "Resource": 1
+    }
+}

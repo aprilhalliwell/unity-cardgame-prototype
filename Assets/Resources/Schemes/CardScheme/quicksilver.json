@@ -1,0 +1,26 @@
+{
+    "Name": {
+        "Text": "Quicksilver"
+    },
+    "GameText": {
+        "Text": "Draw 3 Cards"
+    },
+    "CardImage": {
+        "ImagePath": "package_potions_512x/potion_icons_512x/512x_urn_glass_empty"
+    },
+    "Resource": {
+        "Items": []
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "DrawCard",
+                "Amount": 3,
+                "Target": 0
+            }
+        ]
+    },
+    "Effect": {
+        "Text": ""
+    }
+}

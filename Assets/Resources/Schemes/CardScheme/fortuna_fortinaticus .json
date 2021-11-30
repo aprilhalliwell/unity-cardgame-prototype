@@ -1,0 +1,27 @@
+{
+    "Name": {
+        "Text": "Fortuna Fortinaticus"
+    },
+    "GameText": {
+        "Text": "Draw 5 Cards"
+    },
+    "CardImage": {
+        "ImagePath": "herbs/sprites",
+        "SpriteName": "sprites_2"
+    },
+    "Resource": {
+        "Items": []
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "DrawCard",
+                "Amount": 5,
+                "Target": 0
+            }
+        ]
+    },
+    "Effect": {
+        "Text": ""
+    }
+}

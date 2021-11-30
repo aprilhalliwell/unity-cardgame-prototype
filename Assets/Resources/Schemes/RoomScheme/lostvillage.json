@@ -1,0 +1,21 @@
+{
+    "RoomName": {
+        "Text": "Lost Village"
+    },
+    "RoomRow": {
+        "Amount": 3
+    },
+    "NextRooms": {
+        "Items": [
+            "fairycourt"
+        ]
+    },
+    "Matches": {
+        "Items": [
+            "basicroom"
+        ]
+    },
+    "Rewards": {
+        "Items": []
+    }
+}

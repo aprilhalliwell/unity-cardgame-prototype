@@ -1,0 +1,36 @@
+{
+    "Name": {
+        "Text": "Blood Root(M)"
+    },
+    "GameText": {
+        "Text": "Deal 2 Damage"
+    },
+    "CardImage": {
+        "ImagePath": "herbs/sprites",
+        "SpriteName": "sprites_16"
+    },
+    "Resource": {
+        "Items": [
+            {
+                "ResourceTypes": 1,
+                "Cost": 1
+            },
+            {
+                "ResourceTypes": 0,
+                "Cost": 2
+            }
+        ]
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "DealDamage",
+                "Amount": 2,
+                "Target": 1
+            }
+        ]
+    },
+    "Effect": {
+        "Text": ""
+    }
+}

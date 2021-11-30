@@ -1,0 +1,27 @@
+{
+    "RoomName": {
+        "Text": "Bog"
+    },
+    "RoomRow": {
+        "Amount": 2
+    },
+    "NextRooms": {
+        "Items": [
+            "fairygarden",
+            "thicket",
+            "lostvillage"
+        ]
+    },
+    "Matches": {
+        "Items": [
+            "basicroom",
+            "basicroom",
+            "basicroom",
+            "basicroom",
+            "basicroom"
+        ]
+    },
+    "Rewards": {
+        "Items": []
+    }
+}

@@ -1,0 +1,577 @@
+{
+    "CardStackTraits": [
+        {
+            "cardScheme": {
+                "Name": {
+                    "Text": "Abyssal Shard"
+                },
+                "GameText": {
+                    "Text": "Gain 1 Essence and Change an Ingredient to Abyssal"
+                },
+                "CardImage": {
+                    "ImagePath": "package_potions_512x/potion_icons_512x/512x_vial_glass_empty",
+                    "SpriteName": "512x_vial_glass_empty"
+                },
+                "Resource": {
+                    "Items": [
+                        {
+                            "ResourceTypes": 0,
+                            "Cost": 2
+                        }
+                    ]
+                },
+                "Abilities": {
+                    "Items": []
+                },
+                "Effect": {
+                    "Text": "Block"
+                }
+            },
+            "predicate": 0,
+            "noopPredicate": {},
+            "tempPredicate": {
+                "TemperatureMin": 0,
+                "TemperatureMax": 0
+            },
+            "ingPredicate": {
+                "slot1": 0,
+                "slot2": 0,
+                "slot3": 0
+            }
+        },
+        {
+            "cardScheme": {
+                "Name": {
+                    "Text": "Take Below"
+                },
+                "GameText": {
+                    "Text": "Deal 12 Damange to an Enemy and Conume two Ingredients."
+                },
+                "CardImage": {
+                    "ImagePath": "package_potions_512x/potion_icons_512x/512x_vial_glass_empty",
+                    "SpriteName": "512x_vial_glass_empty"
+                },
+                "Resource": {
+                    "Items": [
+                        {
+                            "ResourceTypes": 0,
+                            "Cost": 5
+                        },
+                        {
+                            "ResourceTypes": 1,
+                            "Cost": 2
+                        }
+                    ]
+                },
+                "Abilities": {
+                    "Items": [
+                        {
+                            "ScriptName": "DealDamage",
+                            "Amount": 12,
+                            "Target": 1
+                        },
+                        {
+                            "ScriptName": "ClearOrbs",
+                            "Amount": 2,
+                            "Target": 0
+                        }
+                    ]
+                },
+                "Effect": {
+                    "Text": "Block"
+                }
+            },
+            "predicate": 1,
+            "noopPredicate": {},
+            "tempPredicate": {
+                "TemperatureMin": 0,
+                "TemperatureMax": 0
+            },
+            "ingPredicate": {
+                "slot1": 0,
+                "slot2": 0,
+                "slot3": 0
+            }
+        },
+        {
+            "cardScheme": {
+                "Name": {
+                    "Text": "Erupt"
+                },
+                "GameText": {
+                    "Text": "Deal 6 Damage to All Enemies and Consume All Ingredients"
+                },
+                "CardImage": {
+                    "ImagePath": "package_potions_512x/potion_icons_512x/512x_vial_glass_empty",
+                    "SpriteName": "512x_vial_glass_empty"
+                },
+                "Resource": {
+                    "Items": [
+                        {
+                            "ResourceTypes": 0,
+                            "Cost": 4
+                        },
+                        {
+                            "ResourceTypes": 1,
+                            "Cost": 4
+                        }
+                    ]
+                },
+                "Abilities": {
+                    "Items": [
+                        {
+                            "ScriptName": "DealDamageToAll",
+                            "Amount": 6,
+                            "Target": 1
+                        },
+                        {
+                            "ScriptName": "ClearOrbs",
+                            "Amount": 3,
+                            "Target": 0
+                        }
+                    ]
+                },
+                "Effect": {
+                    "Text": "Block"
+                }
+            },
+            "predicate": 1,
+            "noopPredicate": {},
+            "tempPredicate": {
+                "TemperatureMin": 0,
+                "TemperatureMax": 0
+            },
+            "ingPredicate": {
+                "slot1": 2,
+                "slot2": 2,
+                "slot3": 2
+            }
+        },
+        {
+            "cardScheme": {
+                "Name": {
+                    "Text": "Solar Flare"
+                },
+                "GameText": {
+                    "Text": "Deal 50 Damage to an Enemy and Consume All Ingredients"
+                },
+                "CardImage": {
+                    "ImagePath": "package_potions_512x/potion_icons_512x/512x_vial_glass_empty",
+                    "SpriteName": "512x_vial_glass_empty"
+                },
+                "Resource": {
+                    "Items": [
+                        {
+                            "ResourceTypes": 0,
+                            "Cost": 2
+                        },
+                        {
+                            "ResourceTypes": 1,
+                            "Cost": 5
+                        }
+                    ]
+                },
+                "Abilities": {
+                    "Items": [
+                        {
+                            "ScriptName": "DealDamage",
+                            "Amount": 50,
+                            "Target": 1
+                        },
+                        {
+                            "ScriptName": "ClearOrbs",
+                            "Amount": 3,
+                            "Target": 0
+                        }
+                    ]
+                },
+                "Effect": {
+                    "Text": "Block"
+                }
+            },
+            "predicate": 1,
+            "noopPredicate": {},
+            "tempPredicate": {
+                "TemperatureMin": 0,
+                "TemperatureMax": 0
+            },
+            "ingPredicate": {
+                "slot1": 1,
+                "slot2": 1,
+                "slot3": 1
+            }
+        },
+        {
+            "cardScheme": {
+                "Name": {
+                    "Text": "Gaze of the Beyond"
+                },
+                "GameText": {
+                    "Text": "Gain 5 Stamina and 5 Essence and Consume two Ingredients"
+                },
+                "CardImage": {
+                    "ImagePath": "package_potions_512x/potion_icons_512x/512x_vial_glass_empty",
+                    "SpriteName": "512x_vial_glass_empty"
+                },
+                "Resource": {
+                    "Items": []
+                },
+                "Abilities": {
+                    "Items": [
+                        {
+                            "ScriptName": "GrantStamina",
+                            "Amount": 5,
+                            "Target": 0
+                        },
+                        {
+                            "ScriptName": "GrantEssence",
+                            "Amount": 5,
+                            "Target": 0
+                        },
+                        {
+                            "ScriptName": "ClearOrbs",
+                            "Amount": 2,
+                            "Target": 0
+                        }
+                    ]
+                },
+                "Effect": {
+                    "Text": "Block"
+                }
+            },
+            "predicate": 1,
+            "noopPredicate": {},
+            "tempPredicate": {
+                "TemperatureMin": 0,
+                "TemperatureMax": 0
+            },
+            "ingPredicate": {
+                "slot1": 0,
+                "slot2": 0,
+                "slot3": 1
+            }
+        },
+        {
+            "cardScheme": {
+                "Name": {
+                    "Text": "Embrace of the Earth"
+                },
+                "GameText": {
+                    "Text": "Gain 10 block and consume 1 Ingredient"
+                },
+                "CardImage": {
+                    "ImagePath": "package_potions_512x/potion_icons_512x/512x_vial_glass_empty",
+                    "SpriteName": "512x_vial_glass_empty"
+                },
+                "Resource": {
+                    "Items": [
+                        {
+                            "ResourceTypes": 0,
+                            "Cost": 2
+                        }
+                    ]
+                },
+                "Abilities": {
+                    "Items": [
+                        {
+                            "ScriptName": "GrantBlock",
+                            "Amount": 10,
+                            "Target": 0
+                        },
+                        {
+                            "ScriptName": "ClearOrbs",
+                            "Amount": 1,
+                            "Target": 0
+                        }
+                    ]
+                },
+                "Effect": {
+                    "Text": "Block"
+                }
+            },
+            "predicate": 1,
+            "noopPredicate": {},
+            "tempPredicate": {
+                "TemperatureMin": 0,
+                "TemperatureMax": 0
+            },
+            "ingPredicate": {
+                "slot1": 0,
+                "slot2": 0,
+                "slot3": 2
+            }
+        },
+        {
+            "cardScheme": {
+                "Name": {
+                    "Text": "Lift the Veil"
+                },
+                "GameText": {
+                    "Text": "Stun all Enemies and Consume 1 Ingredient"
+                },
+                "CardImage": {
+                    "ImagePath": "package_potions_512x/potion_icons_512x/512x_vial_glass_empty",
+                    "SpriteName": "512x_vial_glass_empty"
+                },
+                "Resource": {
+                    "Items": [
+                        {
+                            "ResourceTypes": 1,
+                            "Cost": 2
+                        }
+                    ]
+                },
+                "Abilities": {
+                    "Items": [
+                        {
+                            "ScriptName": "StunAll",
+                            "Amount": 0,
+                            "Target": 1
+                        },
+                        {
+                            "ScriptName": "ClearOrbs",
+                            "Amount": 1,
+                            "Target": 0
+                        }
+                    ]
+                },
+                "Effect": {
+                    "Text": "Block"
+                }
+            },
+            "predicate": 1,
+            "noopPredicate": {},
+            "tempPredicate": {
+                "TemperatureMin": 0,
+                "TemperatureMax": 0
+            },
+            "ingPredicate": {
+                "slot1": 0,
+                "slot2": 1,
+                "slot3": 1
+            }
+        },
+        {
+            "cardScheme": {
+                "Name": {
+                    "Text": "Strength of the Pit"
+                },
+                "GameText": {
+                    "Text": "Draw 5 cards and Consume all Ingredients"
+                },
+                "CardImage": {
+                    "ImagePath": "package_potions_512x/potion_icons_512x/512x_vial_glass_empty",
+                    "SpriteName": "512x_vial_glass_empty"
+                },
+                "Resource": {
+                    "Items": [
+                        {
+                            "ResourceTypes": 0,
+                            "Cost": 2
+                        },
+                        {
+                            "ResourceTypes": 0,
+                            "Cost": 2
+                        }
+                    ]
+                },
+                "Abilities": {
+                    "Items": [
+                        {
+                            "ScriptName": "DrawCard",
+                            "Amount": 5,
+                            "Target": 0
+                        },
+                        {
+                            "ScriptName": "ClearOrbs",
+                            "Amount": 3,
+                            "Target": 0
+                        }
+                    ]
+                },
+                "Effect": {
+                    "Text": "Block"
+                }
+            },
+            "predicate": 1,
+            "noopPredicate": {},
+            "tempPredicate": {
+                "TemperatureMin": 0,
+                "TemperatureMax": 0
+            },
+            "ingPredicate": {
+                "slot1": 0,
+                "slot2": 1,
+                "slot3": 2
+            }
+        },
+        {
+            "cardScheme": {
+                "Name": {
+                    "Text": "Giant's Eye"
+                },
+                "GameText": {
+                    "Text": "Deal 5 Damage to two Enemies. Consume All Mandrake Ingredients."
+                },
+                "CardImage": {
+                    "ImagePath": "package_potions_512x/potion_icons_512x/512x_vial_glass_empty",
+                    "SpriteName": "512x_vial_glass_empty"
+                },
+                "Resource": {
+                    "Items": [
+                        {
+                            "ResourceTypes": 0,
+                            "Cost": 4
+                        },
+                        {
+                            "ResourceTypes": 0,
+                            "Cost": 1
+                        }
+                    ]
+                },
+                "Abilities": {
+                    "Items": [
+                        {
+                            "ScriptName": "DealDamageToTwoRandom",
+                            "Amount": 5,
+                            "Target": 1
+                        },
+                        {
+                            "ScriptName": "ClearOrbs",
+                            "Amount": 2,
+                            "Target": 0
+                        }
+                    ]
+                },
+                "Effect": {
+                    "Text": "Block"
+                }
+            },
+            "predicate": 1,
+            "noopPredicate": {},
+            "tempPredicate": {
+                "TemperatureMin": 0,
+                "TemperatureMax": 0
+            },
+            "ingPredicate": {
+                "slot1": 0,
+                "slot2": 2,
+                "slot3": 2
+            }
+        },
+        {
+            "cardScheme": {
+                "Name": {
+                    "Text": "Gift of Death"
+                },
+                "GameText": {
+                    "Text": "Restore all Resources, lose 2 life and Consume all Ingredients."
+                },
+                "CardImage": {
+                    "ImagePath": "package_potions_512x/potion_icons_512x/512x_vial_glass_empty",
+                    "SpriteName": "512x_vial_glass_empty"
+                },
+                "Resource": {
+                    "Items": []
+                },
+                "Abilities": {
+                    "Items": [
+                        {
+                            "ScriptName": "LoseHealth",
+                            "Amount": 2,
+                            "Target": 0
+                        },
+                        {
+                            "ScriptName": "GrantStamina",
+                            "Amount": 10,
+                            "Target": 0
+                        },
+                        {
+                            "ScriptName": "GrantEssence",
+                            "Amount": 10,
+                            "Target": 0
+                        },
+                        {
+                            "ScriptName": "ClearOrbs",
+                            "Amount": 3,
+                            "Target": 0
+                        }
+                    ]
+                },
+                "Effect": {
+                    "Text": "Block"
+                }
+            },
+            "predicate": 1,
+            "noopPredicate": {},
+            "tempPredicate": {
+                "TemperatureMin": 0,
+                "TemperatureMax": 0
+            },
+            "ingPredicate": {
+                "slot1": 1,
+                "slot2": 1,
+                "slot3": 2
+            }
+        },
+        {
+            "cardScheme": {
+                "Name": {
+                    "Text": "False Life"
+                },
+                "GameText": {
+                    "Text": "Thirst: Gain 2 Health(<if=Drank> Deal 2 Damage) and Consume All Orbs "
+                },
+                "CardImage": {
+                    "ImagePath": "package_potions_512x/potion_icons_512x/512x_vial_glass_empty",
+                    "SpriteName": "512x_vial_glass_empty"
+                },
+                "Resource": {
+                    "Items": [
+                        {
+                            "ResourceTypes": 0,
+                            "Cost": 6
+                        },
+                        {
+                            "ResourceTypes": 1,
+                            "Cost": 6
+                        }
+                    ]
+                },
+                "Abilities": {
+                    "Items": [
+                        {
+                            "ScriptName": "HealToAll",
+                            "Amount": 2,
+                            "Target": 0
+                        },
+                        {
+                            "ScriptName": "DealDamage",
+                            "Amount": 2,
+                            "Target": 0
+                        },
+                        {
+                            "ScriptName": "ClearOrbs",
+                            "Amount": 3,
+                            "Target": 0
+                        }
+                    ]
+                },
+                "Effect": {
+                    "Text": "Block"
+                }
+            },
+            "predicate": 1,
+            "noopPredicate": {},
+            "tempPredicate": {
+                "TemperatureMin": 0,
+                "TemperatureMax": 0
+            },
+            "ingPredicate": {
+                "slot1": 1,
+                "slot2": 2,
+                "slot3": 2
+            }
+        }
+    ]
+}

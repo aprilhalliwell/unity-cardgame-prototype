@@ -1,0 +1,42 @@
+{
+    "Name": {
+        "Text": "Guide to Alchemy"
+    },
+    "Description": {
+        "Text": "General formulas that all starting alchemists learn."
+    },
+    "Image": {
+        "ImagePath": "Spritesheets/spritesheet_48x48",
+        "SpriteName": "spritesheet_48x48_41"
+    },
+    "Cards": {
+        "Items": [
+            "recharge",
+            "recharge",
+            "postivecharge",
+            "postivecharge",
+            "discharge",
+            "discharge"
+        ]
+    },
+    "LevelUps": {
+        "Items": [
+            "maxstamina",
+            "maxessence",
+            "maxhealth",
+            "startingessence",
+            "healthperturn",
+            "startingarmor",
+            "maxhealth",
+            "maxessence",
+            "maxessence",
+            "reduceessence"
+        ]
+    },
+    "BundleType": {
+        "CardBundleType": 1
+    },
+    "PrimaryResouce": {
+        "Resource": 2
+    }
+}

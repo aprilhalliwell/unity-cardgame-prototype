@@ -1,0 +1,39 @@
+{
+    "Name": {
+        "Text": "Chain Lightning"
+    },
+    "GameText": {
+        "Text": "Deal 6 Damage to an enemy and 6 additional damage to two random Enemies. Draw a Card"
+    },
+    "CardImage": {
+        "ImagePath": "Simple Icons/Cercle/Wand_Cercle"
+    },
+    "Resource": {
+        "Items": [
+            {
+                "ResourceTypes": 1,
+                "Cost": 2
+            },
+            {
+                "ResourceTypes": 0,
+                "Cost": 2
+            }
+        ]
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "DealDamageToTwoRandom",
+                "Amount": 6,
+                "Target": 1,
+                "EffectName": "lightningStrike"
+            },
+            {
+                "ScriptName": "DrawCard",
+                "Amount": 1,
+                "Target": 0,
+                "EffectName": "drawCard"
+            }
+        ]
+    }
+}

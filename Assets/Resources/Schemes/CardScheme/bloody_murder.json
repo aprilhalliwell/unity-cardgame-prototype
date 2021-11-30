@@ -1,0 +1,32 @@
+{
+    "Name": {
+        "Text": "Bloody Murder"
+    },
+    "GameText": {
+        "Text": "Deal 5 Damage an Enemy and to 2 Random Targets and Draw a card"
+    },
+    "CardImage": {
+        "ImagePath": "herbs/sprites",
+        "SpriteName": "sprites_35"
+    },
+    "Resource": {
+        "Items": []
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "DealDamageToTwoRandom",
+                "Amount": 5,
+                "Target": 1
+            },
+            {
+                "ScriptName": "DrawCard",
+                "Amount": 1,
+                "Target": 0
+            }
+        ]
+    },
+    "Effect": {
+        "Text": ""
+    }
+}

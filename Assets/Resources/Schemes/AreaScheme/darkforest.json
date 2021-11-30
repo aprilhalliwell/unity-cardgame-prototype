@@ -1,0 +1,11 @@
+{
+    "AreaDescription": {
+        "Text": "The dark forest was a pristine land that had all kinds of alchemical uses. Lately however the land has darkened and the sun no longer pierces its thick canopy."
+    },
+    "AreaName": {
+        "Text": "The Dark Forest"
+    },
+    "StartRoom": {
+        "Text": "windingpath"
+    }
+}

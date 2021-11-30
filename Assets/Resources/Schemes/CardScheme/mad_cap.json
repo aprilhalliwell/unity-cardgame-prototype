@@ -1,0 +1,27 @@
+{
+    "Name": {
+        "Text": "Mad Cap"
+    },
+    "GameText": {
+        "Text": "Randomly Discard a Card"
+    },
+    "CardImage": {
+        "ImagePath": "herbs/sprites",
+        "SpriteName": "sprites_30"
+    },
+    "Resource": {
+        "Items": []
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "RandomlyDiscard",
+                "Amount": 1,
+                "Target": 0
+            }
+        ]
+    },
+    "Effect": {
+        "Text": ""
+    }
+}

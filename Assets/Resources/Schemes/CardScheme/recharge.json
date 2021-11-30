@@ -1,0 +1,35 @@
+{
+    "Name": {
+        "Text": "Recharge"
+    },
+    "GameText": {
+        "Text": "Gain 4 Stamina and 2 Essence"
+    },
+    "CardImage": {
+        "ImagePath": "Simple Icons/Cercle/Jewel_Cercle"
+    },
+    "Resource": {
+        "Items": [
+            {
+                "ResourceTypes": 2,
+                "Cost": 2
+            }
+        ]
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "GrantStamina",
+                "Amount": 4,
+                "Target": 0,
+                "EffectName": "gainStamina"
+            },
+            {
+                "ScriptName": "GrantEssence",
+                "Amount": 2,
+                "Target": 0,
+                "EffectName": "gainEssence"
+            }
+        ]
+    }
+}

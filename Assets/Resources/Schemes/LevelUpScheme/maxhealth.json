@@ -1,0 +1,14 @@
+{
+    "Name": {
+        "Text": "Increase Max Health"
+    },
+    "Description": {
+        "Text": "Increase Max Health by 2"
+    },
+    "Image": {
+        "ImagePath": "Simple Icons/Cercle/Bottle_Cercle"
+    },
+    "LevelUpItem": {
+        "Text": ""
+    }
+}

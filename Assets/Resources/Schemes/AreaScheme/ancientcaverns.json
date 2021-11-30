@@ -1,0 +1,11 @@
+{
+    "AreaDescription": {
+        "Text": "A storehouse fit to protect all kinds of alchemical substances from the harsh environment. These mines run deep and new sounds of chittering creatures echo forth from the caverns below."
+    },
+    "AreaName": {
+        "Text": "The Ancient Caverns"
+    },
+    "StartRoom": {
+        "Text": "windingpath"
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "Name": {
+        "Text": "Guide To Twilight"
+    },
+    "Description": {
+        "Text": "Using threads  of starlight to fuel alchemy is hard to master"
+    },
+    "Image": {
+        "ImagePath": "Spritesheets/spritesheet_48x48",
+        "SpriteName": "spritesheet_48x48_34"
+    },
+    "Cards": {
+        "Items": [
+            "twilight_thread",
+            "twilight_thread",
+            "twilight_thread",
+            "twilight_thread",
+            "twilight_thread",
+            "twilight_thread"
+        ]
+    },
+    "LevelUps": {
+        "Items": [
+            "maxhealth",
+            "maxstamina",
+            "maxessence",
+            "startingarmor",
+            "staminaperturn",
+            "essenceperturn",
+            "reducestaminacost",
+            "fullheal",
+            "staminaperturn",
+            "startingessence"
+        ]
+    },
+    "BundleType": {
+        "CardBundleType": 1
+    },
+    "PrimaryResouce": {
+        "Resource": 1
+    }
+}

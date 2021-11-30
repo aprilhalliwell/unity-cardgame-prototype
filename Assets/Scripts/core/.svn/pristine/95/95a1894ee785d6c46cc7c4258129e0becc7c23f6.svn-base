@@ -1,0 +1,9 @@
+using System.Collections;
+
+namespace Assets.CoroutineExecutor
+{
+    public abstract class Command
+    {
+        public abstract void execute();
+    }
+}

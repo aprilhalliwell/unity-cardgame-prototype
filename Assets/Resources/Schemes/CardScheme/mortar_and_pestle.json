@@ -1,0 +1,35 @@
+{
+    "Name": {
+        "Text": "Mortar and Pestle"
+    },
+    "GameText": {
+        "Text": "Draw 2 Cards and Gain 2 Stamina"
+    },
+    "CardImage": {
+        "ImagePath": "Simple Icons/Cercle/Bottle_Cercle"
+    },
+    "Resource": {
+        "Items": [
+            {
+                "ResourceTypes": 0,
+                "Cost": 5
+            }
+        ]
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "DrawCard",
+                "Amount": 2,
+                "Target": 0,
+                "EffectName": "drawCard"
+            },
+            {
+                "ScriptName": "GrantEssence",
+                "Amount": 2,
+                "Target": 0,
+                "EffectName": "increaseEssence"
+            }
+        ]
+    }
+}

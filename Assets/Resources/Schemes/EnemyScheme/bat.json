@@ -1,0 +1,27 @@
+{
+    "Rank": {
+        "Amount": 1
+    },
+    "Health": {
+        "Amount": 8
+    },
+    "Name": {
+        "Text": "Bat"
+    },
+    "EnemyImage": {
+        "ImagePath": "Retro Pixel Monsters/Spritesheets/bat_main"
+    },
+    "EnemyPrefap": {
+        "PrefabPath": "battle/enemy/Bat"
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "DealDamage",
+                "Amount": 4,
+                "Target": 0,
+                "EffectName": "Attack"
+            }
+        ]
+    }
+}

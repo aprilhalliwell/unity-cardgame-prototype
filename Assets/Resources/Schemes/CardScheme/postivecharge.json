@@ -1,0 +1,37 @@
+{
+    "Name": {
+        "Text": "Postively Charged"
+    },
+    "GameText": {
+        "Text": "Gain 2 Charge and 2 Essence"
+    },
+    "CardImage": {
+        "ImagePath": "card/elixir",
+        "SpriteName": "elixir"
+    },
+    "Resource": {
+        "Items": [
+            {
+                "ResourceTypes": 0,
+                "Cost": 3
+            }
+        ]
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "GrantCharge",
+                "Amount": 2,
+                "Target": 0
+            },
+            {
+                "ScriptName": "GrantEssence",
+                "Amount": 2,
+                "Target": 0
+            }
+        ]
+    },
+    "Effect": {
+        "Text": ""
+    }
+}

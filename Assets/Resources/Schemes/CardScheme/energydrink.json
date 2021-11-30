@@ -1,0 +1,35 @@
+{
+    "Name": {
+        "Text": "Energy Drink"
+    },
+    "GameText": {
+        "Text": "Gain 2 Charge and Draw 2 Cards"
+    },
+    "CardImage": {
+        "ImagePath": "Simple Icons/Cercle/Elixir_1_Cercle"
+    },
+    "Resource": {
+        "Items": [
+            {
+                "ResourceTypes": 0,
+                "Cost": 2
+            }
+        ]
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "GrantCharge",
+                "Amount": 2,
+                "Target": 0,
+                "EffectName": "gainCharge"
+            },
+            {
+                "ScriptName": "DrawCard",
+                "Amount": 2,
+                "Target": 0,
+                "EffectName": "drawCard"
+            }
+        ]
+    }
+}

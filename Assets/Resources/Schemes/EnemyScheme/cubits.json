@@ -1,0 +1,27 @@
+{
+    "Rank": {
+        "Amount": 1
+    },
+    "Health": {
+        "Amount": 6
+    },
+    "Name": {
+        "Text": "Cubits"
+    },
+    "EnemyImage": {
+        "ImagePath": "el UI/Spritesheets/Cubits"
+    },
+    "EnemyPrefap": {
+        "PrefabPath": "battle/enemy/cubits"
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "DealDamage",
+                "Amount": 2,
+                "Target": 0,
+                "EffectName": "rain_splash"
+            }
+        ]
+    }
+}

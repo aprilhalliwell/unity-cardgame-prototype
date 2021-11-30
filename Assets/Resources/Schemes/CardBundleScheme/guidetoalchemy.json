@@ -1,0 +1,39 @@
+{
+    "Name": {
+        "Text": "Guide to Alchemy"
+    },
+    "Description": {
+        "Text": "General formulas that all starting alchemists learn."
+    },
+    "Image": {
+        "ImagePath": "Spritesheets/spritesheet_48x48",
+        "SpriteName": "spritesheet_48x48_20"
+    },
+    "Cards": {
+        "Items": [
+            "gather_herbs",
+            "gather_herbs",
+            "mortar_and_pestle",
+            "mortar_and_pestle",
+            "smelt",
+            "smelt"
+        ]
+    },
+    "LevelUps": {
+        "Items": [
+            "maxstamina",
+            "maxessence",
+            "maxhealth",
+            "startingessence",
+            "healthperturn",
+            "startingarmor",
+            "maxhealth",
+            "maxessence",
+            "maxessence",
+            "reduceessence"
+        ]
+    },
+    "BundleType": {
+        "CardBundleType": 1
+    }
+}

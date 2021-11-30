@@ -1,0 +1,24 @@
+{
+    "Name": {
+        "Text": "Discharge"
+    },
+    "GameText": {
+        "Text": "Consume all Charge. Gain 1 Stamina and Draw 1 Card for each Charge."
+    },
+    "CardImage": {
+        "ImagePath": "Simple Icons/Cercle/Hourglass_Cercle"
+    },
+    "Resource": {
+        "Items": []
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "ConsumeAllChargeForCardsAndStamina",
+                "Amount": 1,
+                "Target": 0,
+                "EffectName": "consumeCharge"
+            }
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "Name": {
+        "Text": "Gryphon"
+    },
+    "Description": {
+        "Text": "Proud beasts of the sky. Only found during thunder storms amid the arcing lightning."
+    },
+    "Image": {
+        "ImagePath": "Spritesheets/spritesheet_48x48",
+        "SpriteName": "spritesheet_48x48_36"
+    },
+    "Cards": {
+        "Items": [
+            "chainlightning",
+            "chainlightning",
+            "chainlightning",
+            "surgeprotector",
+            "thunderbolt",
+            "surgeprotector"
+        ]
+    },
+    "LevelUps": {
+        "Items": [
+            "maxhealth",
+            "maxstamina",
+            "maxessence",
+            "startingarmor",
+            "staminaperturn",
+            "essenceperturn",
+            "reducestaminacost",
+            "fullheal",
+            "staminaperturn",
+            "startingessence"
+        ]
+    },
+    "BundleType": {
+        "CardBundleType": 0
+    },
+    "PrimaryResouce": {
+        "Resource": 2
+    }
+}

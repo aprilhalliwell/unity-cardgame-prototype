@@ -1,0 +1,42 @@
+{
+    "Name": {
+        "Text": "Abyssal Dragon"
+    },
+    "Description": {
+        "Text": "An ancient creature from the depths of darkness."
+    },
+    "Image": {
+        "ImagePath": "Spritesheets/spritesheet_48x48",
+        "SpriteName": "spritesheet_48x48_29"
+    },
+    "Cards": {
+        "Items": [
+            "abyssal_shard",
+            "abyssal_shard",
+            "abyssal_shard",
+            "abyssal_shard",
+            "abyssal_shard",
+            "abyssal_shard"
+        ]
+    },
+    "LevelUps": {
+        "Items": [
+            "maxhealth",
+            "maxstamina",
+            "maxessence",
+            "startingarmor",
+            "staminaperturn",
+            "essenceperturn",
+            "reducestaminacost",
+            "fullheal",
+            "staminaperturn",
+            "startingessence"
+        ]
+    },
+    "BundleType": {
+        "CardBundleType": 0
+    },
+    "PrimaryResouce": {
+        "Resource": 1
+    }
+}

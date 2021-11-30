@@ -1,0 +1,39 @@
+{
+    "Name": {
+        "Text": "Alchemical Mind"
+    },
+    "Description": {
+        "Text": "Alchemists have long created constructs to enchance there own minds."
+    },
+    "Image": {
+        "ImagePath": "Spritesheets/spritesheet_48x48",
+        "SpriteName": "spritesheet_48x48_15"
+    },
+    "Cards": {
+        "Items": [
+            "enhanced_mind",
+            "enhanced_mind",
+            "clarity",
+            "clarity",
+            "clarity",
+            "mind_stun"
+        ]
+    },
+    "LevelUps": {
+        "Items": [
+            "maxhealth",
+            "maxstamina",
+            "maxessence",
+            "startingarmor",
+            "staminaperturn",
+            "essenceperturn",
+            "reducestaminacost",
+            "fullheal",
+            "staminaperturn",
+            "startingessence"
+        ]
+    },
+    "BundleType": {
+        "CardBundleType": 0
+    }
+}

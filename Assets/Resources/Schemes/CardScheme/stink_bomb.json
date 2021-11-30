@@ -1,0 +1,29 @@
+{
+    "Name": {
+        "Text": "Stink Bomb"
+    },
+    "GameText": {
+        "Text": "Gain 5 Block"
+    },
+    "CardImage": {
+        "ImagePath": "package_potions_512x/potion_icons_256x/256x_beaker_glas"
+    },
+    "Resource": {
+        "Items": [
+            {
+                "ResourceTypes": 0,
+                "Cost": 4
+            }
+        ]
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "GrantBlock",
+                "Amount": 5,
+                "Target": 0,
+                "EffectName": "alchBlock"
+            }
+        ]
+    }
+}

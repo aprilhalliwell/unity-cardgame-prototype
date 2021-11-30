@@ -1,0 +1,14 @@
+{
+    "Name": {
+        "Text": "Heal Per Turn"
+    },
+    "Description": {
+        "Text": "Heal 1 Health per turn"
+    },
+    "Image": {
+        "ImagePath": "Simple Icons/Cercle/Mushroom_Cercle"
+    },
+    "LevelUpItem": {
+        "Text": ""
+    }
+}

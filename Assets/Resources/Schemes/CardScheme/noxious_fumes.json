@@ -1,0 +1,32 @@
+{
+    "Name": {
+        "Text": "Noxious Fumes"
+    },
+    "GameText": {
+        "Text": "Deal 4 Damage to all Enemies and draw 2 cards"
+    },
+    "CardImage": {
+        "ImagePath": "herbs/sprites",
+        "SpriteName": "sprites_24"
+    },
+    "Resource": {
+        "Items": []
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "DealDamageToAll",
+                "Amount": 4,
+                "Target": 1
+            },
+            {
+                "ScriptName": "DrawCard",
+                "Amount": 2,
+                "Target": 1
+            }
+        ]
+    },
+    "Effect": {
+        "Text": ""
+    }
+}

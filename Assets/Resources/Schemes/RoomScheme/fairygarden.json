@@ -1,0 +1,25 @@
+{
+    "RoomName": {
+        "Text": "Fairy Garden"
+    },
+    "RoomRow": {
+        "Amount": 3
+    },
+    "NextRooms": {
+        "Items": [
+            "fairycourt"
+        ]
+    },
+    "Matches": {
+        "Items": [
+            "basicroom",
+            "basicroom",
+            "basicroom",
+            "basicroom",
+            "basicroom"
+        ]
+    },
+    "Rewards": {
+        "Items": []
+    }
+}

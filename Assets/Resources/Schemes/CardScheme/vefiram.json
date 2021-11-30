@@ -1,0 +1,32 @@
+{
+    "Name": {
+        "Text": "Vefiram(M)"
+    },
+    "GameText": {
+        "Text": "Gain 1 Essence"
+    },
+    "CardImage": {
+        "ImagePath": "herbs/sprites",
+        "SpriteName": "sprites_14"
+    },
+    "Resource": {
+        "Items": [
+            {
+                "ResourceTypes": 0,
+                "Cost": 3
+            }
+        ]
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "GrantEssence",
+                "Amount": 1,
+                "Target": 0
+            }
+        ]
+    },
+    "Effect": {
+        "Text": ""
+    }
+}

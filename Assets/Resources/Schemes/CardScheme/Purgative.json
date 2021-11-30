@@ -1,0 +1,32 @@
+{
+    "Name": {
+        "Text": "Purgative"
+    },
+    "GameText": {
+        "Text": "Deal 8 Damage and Gain 3 Essence"
+    },
+    "CardImage": {
+        "ImagePath": "herbs/sprites",
+        "SpriteName": "sprites_29"
+    },
+    "Resource": {
+        "Items": []
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "DealDamage",
+                "Amount": 8,
+                "Target": 1
+            },
+            {
+                "ScriptName": "GrantEssence",
+                "Amount": 3,
+                "Target": 0
+            }
+        ]
+    },
+    "Effect": {
+        "Text": ""
+    }
+}

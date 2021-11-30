@@ -1,0 +1,29 @@
+{
+    "Name": {
+        "Text": "Gather Herbs"
+    },
+    "GameText": {
+        "Text": "Gain 2 Essence"
+    },
+    "CardImage": {
+        "ImagePath": "Simple Icons/Cercle/Bag_Cercle"
+    },
+    "Resource": {
+        "Items": [
+            {
+                "ResourceTypes": 0,
+                "Cost": 4
+            }
+        ]
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "GrantEssence",
+                "Amount": 2,
+                "Target": 0,
+                "EffectName": "essenceIncrease"
+            }
+        ]
+    }
+}

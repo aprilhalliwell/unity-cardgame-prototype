@@ -1,0 +1,30 @@
+{
+    "RoomName": {
+        "Text": "Winding Path"
+    },
+    "RoomRow": {
+        "Amount": 0
+    },
+    "NextRooms": {
+        "Items": [
+            "greenhill",
+            "hedgemaze",
+            "hillfort"
+        ]
+    },
+    "Matches": {
+        "Items": [
+            "basicroom",
+            "basicroom",
+            "basicroom",
+            "basicroom",
+            "basicroom"
+        ]
+    },
+    "Rewards": {
+        "Items": []
+    },
+    "Image": {
+        "ImagePath": ""
+    }
+}

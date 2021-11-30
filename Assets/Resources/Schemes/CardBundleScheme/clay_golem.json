@@ -1,0 +1,42 @@
+{
+    "Name": {
+        "Text": "Clay Golem"
+    },
+    "Description": {
+        "Text": ""
+    },
+    "Image": {
+        "ImagePath": "Spritesheets/spritesheet_48x48",
+        "SpriteName": "spritesheet_48x48_22"
+    },
+    "Cards": {
+        "Items": [
+            "quicksilver",
+            "pure_ethanol",
+            "swift_quaff",
+            "blood_root",
+            "blood_root",
+            "blood_root"
+        ]
+    },
+    "LevelUps": {
+        "Items": [
+            "maxhealth",
+            "maxhealth",
+            "maxhealth",
+            "maxhealth",
+            "maxhealth",
+            "maxhealth",
+            "maxhealth",
+            "maxhealth",
+            "maxhealth",
+            "maxhealth"
+        ]
+    },
+    "BundleType": {
+        "CardBundleType": 0
+    },
+    "PrimaryResouce": {
+        "Resource": 1
+    }
+}

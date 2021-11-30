@@ -1,0 +1,11 @@
+{
+    "Title": {
+        "Text": "Rune Stone"
+    },
+    "Description": {
+        "Text": "These arcane stones hold hefty amounts of power to help you."
+    },
+    "EquipmentType": {
+        "EquipmentType": 0
+    }
+}

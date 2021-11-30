@@ -1,0 +1,12 @@
+using UnityEngine;
+
+namespace Assets.Components
+{
+    public class DontDestoryOnLoad : MonoBehaviour
+    {
+        void Awake()
+        {
+            DontDestroyOnLoad(gameObject);
+        }
+    }
+}

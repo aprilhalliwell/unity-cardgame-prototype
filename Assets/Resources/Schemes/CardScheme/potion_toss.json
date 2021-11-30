@@ -1,0 +1,28 @@
+{
+    "Rank": {
+        "Amount": 1
+    },
+    "Name": {
+        "Text": "Potion Toss"
+    },
+    "GameText": {
+        "Text": "Deal 1 Damage"
+    },
+    "CardImage": {
+        "ImagePath": "package_potions_512x/potion_icons_256x/256x_beaker_red"
+    },
+    "Resource": {
+        "ResourceTypes": 0,
+        "Cost": 1
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "DealDamage",
+                "Amount": 1,
+                "Target": 1,
+                "EffectName": "PotionTossRed"
+            }
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "HealthPool": {
+        "Amount": 15
+    },
+    "PotentialEnemies": {
+        "Items": [
+            "skeletonwarrior",
+            "cubits",
+            "bat"
+        ]
+    },
+    "UseAllEnemies": {
+        "State": false
+    },
+    "MatchPreview": {
+        "ImagePath": "Retro Pixel Monsters/Spritesheets/firesprite_main",
+        "SpriteName": "firesprite_main_0"
+    },
+    "BattleScreens": {
+        "Items": [
+            "default"
+        ]
+    }
+}

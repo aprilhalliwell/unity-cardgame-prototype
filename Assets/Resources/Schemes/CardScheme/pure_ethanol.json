@@ -1,0 +1,31 @@
+{
+    "Name": {
+        "Text": "Pure Ethanol"
+    },
+    "GameText": {
+        "Text": "Gain 1 Essence and 3 Stamina"
+    },
+    "CardImage": {
+        "ImagePath": "package_potions_512x/potion_icons_512x/512x_bottle2_glass_empty"
+    },
+    "Resource": {
+        "Items": []
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "GrantEssence",
+                "Amount": 1,
+                "Target": 0
+            },
+            {
+                "ScriptName": "GrantStamina",
+                "Amount": 3,
+                "Target": 0
+            }
+        ]
+    },
+    "Effect": {
+        "Text": ""
+    }
+}

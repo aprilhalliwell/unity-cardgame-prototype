@@ -1,0 +1,383 @@
+{
+    "CardStackTraits": [
+        {
+            "cardScheme": {
+                "Name": {
+                    "Text": "Twilight Thread"
+                },
+                "GameText": {
+                    "Text": "Gain 1 Essence and Change an Orb to Abyssal"
+                },
+                "CardImage": {
+                    "ImagePath": "package_potions_512x/potion_icons_512x/512x_vial_glass_empty",
+                    "SpriteName": "512x_vial_glass_empty"
+                },
+                "Resource": {
+                    "Items": [
+                        {
+                            "ResourceTypes": 0,
+                            "Cost": 2
+                        }
+                    ]
+                },
+                "Abilities": {
+                    "Items": []
+                },
+                "Effect": {
+                    "Text": "Block"
+                }
+            },
+            "predicate": 0,
+            "noopPredicate": {},
+            "tempPredicate": {
+                "TemperatureMin": 0,
+                "TemperatureMax": 0
+            },
+            "ingPredicate": {
+                "slot1": 0,
+                "slot2": 0,
+                "slot3": 0
+            }
+        },
+        {
+            "cardScheme": {
+                "Name": {
+                    "Text": "Twilight 1"
+                },
+                "GameText": {
+                    "Text": "Gain 5 Stamina "
+                },
+                "CardImage": {
+                    "ImagePath": "package_potions_512x/potion_icons_512x/512x_vial_glass_empty",
+                    "SpriteName": "512x_vial_glass_empty"
+                },
+                "Resource": {
+                    "Items": []
+                },
+                "Abilities": {
+                    "Items": []
+                },
+                "Effect": {
+                    "Text": "Block"
+                }
+            },
+            "predicate": 1,
+            "noopPredicate": {},
+            "tempPredicate": {
+                "TemperatureMin": 0,
+                "TemperatureMax": 0
+            },
+            "ingPredicate": {
+                "slot1": 0,
+                "slot2": 0,
+                "slot3": 0
+            }
+        },
+        {
+            "cardScheme": {
+                "Name": {
+                    "Text": "Twilight 2"
+                },
+                "GameText": {
+                    "Text": "Gain 5 Stamina "
+                },
+                "CardImage": {
+                    "ImagePath": "package_potions_512x/potion_icons_512x/512x_vial_glass_empty",
+                    "SpriteName": "512x_vial_glass_empty"
+                },
+                "Resource": {
+                    "Items": []
+                },
+                "Abilities": {
+                    "Items": []
+                },
+                "Effect": {
+                    "Text": "Block"
+                }
+            },
+            "predicate": 1,
+            "noopPredicate": {},
+            "tempPredicate": {
+                "TemperatureMin": 0,
+                "TemperatureMax": 0
+            },
+            "ingPredicate": {
+                "slot1": 2,
+                "slot2": 2,
+                "slot3": 2
+            }
+        },
+        {
+            "cardScheme": {
+                "Name": {
+                    "Text": "Twilight 3"
+                },
+                "GameText": {
+                    "Text": "Gain 5 Stamina "
+                },
+                "CardImage": {
+                    "ImagePath": "package_potions_512x/potion_icons_512x/512x_vial_glass_empty",
+                    "SpriteName": "512x_vial_glass_empty"
+                },
+                "Resource": {
+                    "Items": []
+                },
+                "Abilities": {
+                    "Items": []
+                },
+                "Effect": {
+                    "Text": "Block"
+                }
+            },
+            "predicate": 1,
+            "noopPredicate": {},
+            "tempPredicate": {
+                "TemperatureMin": 0,
+                "TemperatureMax": 0
+            },
+            "ingPredicate": {
+                "slot1": 1,
+                "slot2": 1,
+                "slot3": 1
+            }
+        },
+        {
+            "cardScheme": {
+                "Name": {
+                    "Text": "Twilight 4"
+                },
+                "GameText": {
+                    "Text": "Gain 5 Stamina "
+                },
+                "CardImage": {
+                    "ImagePath": "package_potions_512x/potion_icons_512x/512x_vial_glass_empty",
+                    "SpriteName": "512x_vial_glass_empty"
+                },
+                "Resource": {
+                    "Items": []
+                },
+                "Abilities": {
+                    "Items": []
+                },
+                "Effect": {
+                    "Text": "Block"
+                }
+            },
+            "predicate": 1,
+            "noopPredicate": {},
+            "tempPredicate": {
+                "TemperatureMin": 0,
+                "TemperatureMax": 0
+            },
+            "ingPredicate": {
+                "slot1": 0,
+                "slot2": 0,
+                "slot3": 1
+            }
+        },
+        {
+            "cardScheme": {
+                "Name": {
+                    "Text": "Twilight 5"
+                },
+                "GameText": {
+                    "Text": "Gain 5 Stamina "
+                },
+                "CardImage": {
+                    "ImagePath": "package_potions_512x/potion_icons_512x/512x_vial_glass_empty",
+                    "SpriteName": "512x_vial_glass_empty"
+                },
+                "Resource": {
+                    "Items": []
+                },
+                "Abilities": {
+                    "Items": []
+                },
+                "Effect": {
+                    "Text": "Block"
+                }
+            },
+            "predicate": 1,
+            "noopPredicate": {},
+            "tempPredicate": {
+                "TemperatureMin": 0,
+                "TemperatureMax": 0
+            },
+            "ingPredicate": {
+                "slot1": 0,
+                "slot2": 0,
+                "slot3": 2
+            }
+        },
+        {
+            "cardScheme": {
+                "Name": {
+                    "Text": "Twilight 6"
+                },
+                "GameText": {
+                    "Text": "Gain 5 Stamina "
+                },
+                "CardImage": {
+                    "ImagePath": "package_potions_512x/potion_icons_512x/512x_vial_glass_empty",
+                    "SpriteName": "512x_vial_glass_empty"
+                },
+                "Resource": {
+                    "Items": []
+                },
+                "Abilities": {
+                    "Items": []
+                },
+                "Effect": {
+                    "Text": "Block"
+                }
+            },
+            "predicate": 1,
+            "noopPredicate": {},
+            "tempPredicate": {
+                "TemperatureMin": 0,
+                "TemperatureMax": 0
+            },
+            "ingPredicate": {
+                "slot1": 0,
+                "slot2": 1,
+                "slot3": 1
+            }
+        },
+        {
+            "cardScheme": {
+                "Name": {
+                    "Text": "Twilight 7"
+                },
+                "GameText": {
+                    "Text": "Gain 5 Stamina "
+                },
+                "CardImage": {
+                    "ImagePath": "package_potions_512x/potion_icons_512x/512x_vial_glass_empty",
+                    "SpriteName": "512x_vial_glass_empty"
+                },
+                "Resource": {
+                    "Items": []
+                },
+                "Abilities": {
+                    "Items": []
+                },
+                "Effect": {
+                    "Text": "Block"
+                }
+            },
+            "predicate": 1,
+            "noopPredicate": {},
+            "tempPredicate": {
+                "TemperatureMin": 0,
+                "TemperatureMax": 0
+            },
+            "ingPredicate": {
+                "slot1": 0,
+                "slot2": 1,
+                "slot3": 2
+            }
+        },
+        {
+            "cardScheme": {
+                "Name": {
+                    "Text": "Twilight 8"
+                },
+                "GameText": {
+                    "Text": "Gain 5 Stamina "
+                },
+                "CardImage": {
+                    "ImagePath": "package_potions_512x/potion_icons_512x/512x_vial_glass_empty",
+                    "SpriteName": "512x_vial_glass_empty"
+                },
+                "Resource": {
+                    "Items": []
+                },
+                "Abilities": {
+                    "Items": []
+                },
+                "Effect": {
+                    "Text": "Block"
+                }
+            },
+            "predicate": 1,
+            "noopPredicate": {},
+            "tempPredicate": {
+                "TemperatureMin": 0,
+                "TemperatureMax": 0
+            },
+            "ingPredicate": {
+                "slot1": 0,
+                "slot2": 2,
+                "slot3": 2
+            }
+        },
+        {
+            "cardScheme": {
+                "Name": {
+                    "Text": "Twilightl 9"
+                },
+                "GameText": {
+                    "Text": "Gain 5 Stamina "
+                },
+                "CardImage": {
+                    "ImagePath": "package_potions_512x/potion_icons_512x/512x_vial_glass_empty",
+                    "SpriteName": "512x_vial_glass_empty"
+                },
+                "Resource": {
+                    "Items": []
+                },
+                "Abilities": {
+                    "Items": []
+                },
+                "Effect": {
+                    "Text": "Block"
+                }
+            },
+            "predicate": 1,
+            "noopPredicate": {},
+            "tempPredicate": {
+                "TemperatureMin": 0,
+                "TemperatureMax": 0
+            },
+            "ingPredicate": {
+                "slot1": 1,
+                "slot2": 1,
+                "slot3": 2
+            }
+        },
+        {
+            "cardScheme": {
+                "Name": {
+                    "Text": "Twilight 10"
+                },
+                "GameText": {
+                    "Text": "Gain 5 Stamina "
+                },
+                "CardImage": {
+                    "ImagePath": "package_potions_512x/potion_icons_512x/512x_vial_glass_empty",
+                    "SpriteName": "512x_vial_glass_empty"
+                },
+                "Resource": {
+                    "Items": []
+                },
+                "Abilities": {
+                    "Items": []
+                },
+                "Effect": {
+                    "Text": "Block"
+                }
+            },
+            "predicate": 1,
+            "noopPredicate": {},
+            "tempPredicate": {
+                "TemperatureMin": 0,
+                "TemperatureMax": 0
+            },
+            "ingPredicate": {
+                "slot1": 1,
+                "slot2": 2,
+                "slot3": 2
+            }
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "Name": {
+        "Text": "Panacea"
+    },
+    "GameText": {
+        "Text": "Restore all Stamina and Essence."
+    },
+    "CardImage": {
+        "ImagePath": "herbs/sprites",
+        "SpriteName": "sprites_19"
+    },
+    "Resource": {
+        "Items": []
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "GrantStamina",
+                "Amount": 9999,
+                "Target": 0
+            },
+            {
+                "ScriptName": "GrantEssence",
+                "Amount": 9999,
+                "Target": 0
+            }
+        ]
+    },
+    "Effect": {
+        "Text": ""
+    }
+}

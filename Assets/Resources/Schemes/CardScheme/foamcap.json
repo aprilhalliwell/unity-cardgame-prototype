@@ -1,0 +1,32 @@
+{
+    "Name": {
+        "Text": "Foamcap(M)"
+    },
+    "GameText": {
+        "Text": "Gain 1 Stamina"
+    },
+    "CardImage": {
+        "ImagePath": "herbs/sprites",
+        "SpriteName": "sprites_18"
+    },
+    "Resource": {
+        "Items": [
+            {
+                "ResourceTypes": 1,
+                "Cost": 1
+            }
+        ]
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "GrantStamina",
+                "Amount": 1,
+                "Target": 0
+            }
+        ]
+    },
+    "Effect": {
+        "Text": ""
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "Rank": {
+        "Amount": 1
+    },
+    "Health": {
+        "Amount": 10
+    },
+    "Name": {
+        "Text": "Skeleton Warrior"
+    },
+    "EnemyImage": {
+        "ImagePath": "Retro Pixel Monsters/Spritesheets/skeleton_warrior_main",
+        "SpriteName": "skeleton_warrior_main_0"
+    },
+    "EnemyPrefap": {
+        "PrefabPath": "battle/enemy/skeletonwarrior"
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "DealDamage",
+                "Amount": 5,
+                "Target": 0,
+                "EffectName": "Attack"
+            }
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+using System.Collections;
+
+namespace Assets.CoroutineExecutor
+{
+    public static class CommandExtensions
+    {
+        public static IEnumerator Execute(this Command cmd)
+        {
+            return Executor.Find().Execute(cmd);
+        }
+    }
+}

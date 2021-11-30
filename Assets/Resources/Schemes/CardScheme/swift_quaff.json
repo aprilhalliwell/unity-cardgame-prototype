@@ -1,0 +1,36 @@
+{
+    "Name": {
+        "Text": "Swift Quaff"
+    },
+    "GameText": {
+        "Text": "Draw 2 Cards and Gain 5 Block"
+    },
+    "CardImage": {
+        "ImagePath": "package_potions_512x/potion_icons_512x/512x_vial_glass_empty"
+    },
+    "Resource": {
+        "Items": [
+            {
+                "ResourceTypes": 1,
+                "Cost": 2
+            }
+        ]
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "DrawCard",
+                "Amount": 2,
+                "Target": 0
+            },
+            {
+                "ScriptName": "GrantBlock",
+                "Amount": 5,
+                "Target": 0
+            }
+        ]
+    },
+    "Effect": {
+        "Text": ""
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "RoomName": {
+        "Text": "Green Hill"
+    },
+    "RoomRow": {
+        "Amount": 1
+    },
+    "NextRooms": {
+        "Items": [
+            "slimewoods",
+            "bog"
+        ]
+    },
+    "Matches": {
+        "Items": [
+            "basicroom",
+            "basicroom",
+            "basicroom",
+            "basicroom",
+            "basicroom"
+        ]
+    },
+    "Rewards": {
+        "Items": []
+    }
+}

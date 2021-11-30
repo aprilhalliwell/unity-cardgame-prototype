@@ -1,0 +1,36 @@
+{
+    "Name": {
+        "Text": "Alchemist's Fire"
+    },
+    "GameText": {
+        "Text": "Deal 2 Damage to all Enemies"
+    },
+    "CardImage": {
+        "ImagePath": "card/fireBITCH",
+        "SpriteName": "fireBITCH"
+    },
+    "Resource": {
+        "Items": [
+            {
+                "ResourceTypes": 1,
+                "Cost": 2
+            },
+            {
+                "ResourceTypes": 0,
+                "Cost": 1
+            }
+        ]
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "DealDamageToAll",
+                "Amount": 1,
+                "Target": 2
+            }
+        ]
+    },
+    "Effect": {
+        "Text": ""
+    }
+}

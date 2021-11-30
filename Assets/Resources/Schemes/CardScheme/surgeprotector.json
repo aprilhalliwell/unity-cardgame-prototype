@@ -1,0 +1,33 @@
+{
+    "Name": {
+        "Text": "Surge Protector"
+    },
+    "GameText": {
+        "Text": "Consume all charge to gain 3 block per charge."
+    },
+    "CardImage": {
+        "ImagePath": "Simple Icons/Cercle/Jewel_Cercle"
+    },
+    "Resource": {
+        "Items": [
+            {
+                "ResourceTypes": 0,
+                "Cost": 2
+            },
+            {
+                "ResourceTypes": 1,
+                "Cost": 2
+            }
+        ]
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "ConsumeAllChargeForBlock",
+                "Amount": 3,
+                "Target": 0,
+                "EffectName": "surgeBlock"
+            }
+        ]
+    }
+}

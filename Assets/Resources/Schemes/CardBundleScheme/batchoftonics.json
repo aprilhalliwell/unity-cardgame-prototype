@@ -1,0 +1,42 @@
+{
+    "Name": {
+        "Text": "Batch of Elixirs"
+    },
+    "Description": {
+        "Text": "A large batch of useful elixirs fill your pack. It contains many tricks to keep you alive."
+    },
+    "Image": {
+        "ImagePath": "Spritesheets/spritesheet_48x48",
+        "SpriteName": "spritesheet_48x48_37"
+    },
+    "Cards": {
+        "Items": [
+            "bottledlightning",
+            "bottledlightning",
+            "bottledlightning",
+            "energydrink",
+            "energydrink",
+            "vialofplasma"
+        ]
+    },
+    "LevelUps": {
+        "Items": [
+            "maxhealth",
+            "maxhealth",
+            "maxhealth",
+            "maxessence",
+            "maxstamina",
+            "maxessence",
+            "maxstamina",
+            "maxhealth",
+            "maxhealth",
+            "maxessence"
+        ]
+    },
+    "BundleType": {
+        "CardBundleType": 2
+    },
+    "PrimaryResouce": {
+        "Resource": 2
+    }
+}

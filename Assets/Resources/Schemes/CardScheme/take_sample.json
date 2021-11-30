@@ -1,0 +1,40 @@
+{
+    "Name": {
+        "Text": "Take Sample"
+    },
+    "GameText": {
+        "Text": "Deal 5 Damage to an Enemy and Draw a card."
+    },
+    "CardImage": {
+        "ImagePath": "package_potions_512x/potion_icons_512x/512x_flask1_glass_empty"
+    },
+    "Resource": {
+        "Items": [
+            {
+                "ResourceTypes": 0,
+                "Cost": 2
+            },
+            {
+                "ResourceTypes": 1,
+                "Cost": 2
+            }
+        ]
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "DealDamage",
+                "Amount": 5,
+                "Target": 0
+            },
+            {
+                "ScriptName": "DrawCard",
+                "Amount": 1,
+                "Target": 0
+            }
+        ]
+    },
+    "Effect": {
+        "Text": ""
+    }
+}

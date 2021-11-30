@@ -1,0 +1,29 @@
+{
+    "RoomName": {
+        "Text": "Slime Woods"
+    },
+    "RoomRow": {
+        "Amount": 2
+    },
+    "NextRooms": {
+        "Items": [
+            "fairygarden",
+            "thicket"
+        ]
+    },
+    "Matches": {
+        "Items": [
+            "basicroom",
+            "basicroom",
+            "basicroom",
+            "basicroom",
+            "basicroom"
+        ]
+    },
+    "Rewards": {
+        "Items": []
+    },
+    "Image": {
+        "ImagePath": ""
+    }
+}

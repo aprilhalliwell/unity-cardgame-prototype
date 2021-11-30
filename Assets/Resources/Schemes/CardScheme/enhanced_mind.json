@@ -1,0 +1,29 @@
+{
+    "Name": {
+        "Text": "Enhanced Mind"
+    },
+    "GameText": {
+        "Text": "Draw Two Cards"
+    },
+    "CardImage": {
+        "ImagePath": "Simple Icons/Cercle/Scroll_Cercle"
+    },
+    "Resource": {
+        "Items": [
+            {
+                "ResourceTypes": 1,
+                "Cost": 1
+            }
+        ]
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "DrawCard",
+                "Amount": 2,
+                "Target": 0,
+                "EffectName": "draw"
+            }
+        ]
+    }
+}

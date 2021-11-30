@@ -1,0 +1,49 @@
+{
+    "Name": {
+        "Text": "Vial of Plasma"
+    },
+    "GameText": {
+        "Text": "Gain 5 Block, Deal 10 damage to an Enemy, and Draw a Card."
+    },
+    "CardImage": {
+        "ImagePath": "Simple Icons/Cercle/Bottle_Cercle"
+    },
+    "Resource": {
+        "Items": [
+            {
+                "ResourceTypes": 0,
+                "Cost": 2
+            },
+            {
+                "ResourceTypes": 1,
+                "Cost": 2
+            },
+            {
+                "ResourceTypes": 2,
+                "Cost": 2
+            }
+        ]
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "GrantBlock",
+                "Amount": 5,
+                "Target": 0,
+                "EffectName": "gainBlock"
+            },
+            {
+                "ScriptName": "DealDamage",
+                "Amount": 10,
+                "Target": 1,
+                "EffectName": "Ice"
+            },
+            {
+                "ScriptName": "DrawCard",
+                "Amount": 1,
+                "Target": 0,
+                "EffectName": "drawCard"
+            }
+        ]
+    }
+}

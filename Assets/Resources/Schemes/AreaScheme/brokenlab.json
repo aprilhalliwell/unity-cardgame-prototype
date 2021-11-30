@@ -1,0 +1,11 @@
+{
+    "AreaDescription": {
+        "Text": "The old alchemy lab used to be brimming with tictures and sounds of craftsmenship. The halls only echo a more sinister tale now. Perhaps some old equipment is still help within."
+    },
+    "AreaName": {
+        "Text": "A Broken Lab"
+    },
+    "StartRoom": {
+        "Text": "windingpath"
+    }
+}

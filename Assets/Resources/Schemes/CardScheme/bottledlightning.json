@@ -1,0 +1,43 @@
+{
+    "Name": {
+        "Text": "Bottled Lightning"
+    },
+    "GameText": {
+        "Text": "Deal 2 damage to all enemies and Draw a Card."
+    },
+    "CardImage": {
+        "ImagePath": "Simple Icons/Cercle/Elixir_2_Cercle"
+    },
+    "Resource": {
+        "Items": [
+            {
+                "ResourceTypes": 0,
+                "Cost": 2
+            },
+            {
+                "ResourceTypes": 1,
+                "Cost": 2
+            },
+            {
+                "ResourceTypes": 2,
+                "Cost": 1
+            }
+        ]
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "DealDamageToAll",
+                "Amount": 2,
+                "Target": 1,
+                "EffectName": "allDamage"
+            },
+            {
+                "ScriptName": "DrawCard",
+                "Amount": 1,
+                "Target": 0,
+                "EffectName": "drawCard"
+            }
+        ]
+    }
+}

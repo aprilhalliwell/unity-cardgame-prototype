@@ -1,0 +1,26 @@
+{
+    "RoomName": {
+        "Text": "Hedge Maze"
+    },
+    "RoomRow": {
+        "Amount": 1
+    },
+    "NextRooms": {
+        "Items": [
+            "slimewoods",
+            "ruins"
+        ]
+    },
+    "Matches": {
+        "Items": [
+            "basicroom",
+            "basicroom",
+            "basicroom",
+            "basicroom",
+            "basicroom"
+        ]
+    },
+    "Rewards": {
+        "Items": []
+    }
+}

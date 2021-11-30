@@ -1,0 +1,27 @@
+{
+    "Name": {
+        "Text": "Rotted Mind"
+    },
+    "GameText": {
+        "Text": "Lose 2 Health"
+    },
+    "CardImage": {
+        "ImagePath": "herbs/sprites",
+        "SpriteName": "sprites_20"
+    },
+    "Resource": {
+        "Items": []
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "LoseHealth",
+                "Amount": 2,
+                "Target": 0
+            }
+        ]
+    },
+    "Effect": {
+        "Text": ""
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "Name": {
+        "Text": "Thunder Bolt"
+    },
+    "GameText": {
+        "Text": "Consume all charge. Deal 5 damage per charge to an enemy."
+    },
+    "CardImage": {
+        "ImagePath": "Simple Icons/Cercle/Book_Cercle"
+    },
+    "Resource": {
+        "Items": [
+            {
+                "ResourceTypes": 0,
+                "Cost": 2
+            },
+            {
+                "ResourceTypes": 1,
+                "Cost": 4
+            }
+        ]
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "ConsumeAllChargeForDamage",
+                "Amount": 5,
+                "Target": 1,
+                "EffectName": "lightningBolt"
+            }
+        ]
+    }
+}

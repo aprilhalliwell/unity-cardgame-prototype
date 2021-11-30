@@ -1,0 +1,14 @@
+{
+    "Name": {
+        "Text": "Full Heal"
+    },
+    "Description": {
+        "Text": "Heal to full life"
+    },
+    "Image": {
+        "ImagePath": "Simple Icons/Cercle/Scroll_Cercle"
+    },
+    "LevelUpItem": {
+        "Text": ""
+    }
+}

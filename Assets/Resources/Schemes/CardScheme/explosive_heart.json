@@ -1,0 +1,27 @@
+{
+    "Name": {
+        "Text": "Explosive Heart"
+    },
+    "GameText": {
+        "Text": "Restore 5 Health to all Enemies"
+    },
+    "CardImage": {
+        "ImagePath": "herbs/sprites",
+        "SpriteName": "sprites_13"
+    },
+    "Resource": {
+        "Items": []
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "HealToAll",
+                "Amount": 5,
+                "Target": 1
+            }
+        ]
+    },
+    "Effect": {
+        "Text": ""
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "Name": {
+        "Text": "Starting Essence"
+    },
+    "Description": {
+        "Text": "Start each battle with 2 Essence"
+    },
+    "Image": {
+        "ImagePath": "Simple Icons/Cercle/Jewel_Cercle"
+    },
+    "LevelUpItem": {
+        "Text": ""
+    }
+}

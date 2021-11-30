@@ -1,0 +1,14 @@
+{
+    "Name": {
+        "Text": "Starting Armor"
+    },
+    "Description": {
+        "Text": "Start each battle with 3 Armor"
+    },
+    "Image": {
+        "ImagePath": "Simple Icons/Cercle/Armor_1_Cercle"
+    },
+    "LevelUpItem": {
+        "Text": ""
+    }
+}

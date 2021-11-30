@@ -1,0 +1,27 @@
+{
+    "Rank": {
+        "Amount": 1
+    },
+    "Health": {
+        "Amount": 8
+    },
+    "Name": {
+        "Text": "slime"
+    },
+    "EnemyImage": {
+        "ImagePath": "package_potions_512x/potion_icons_256x/256x_beaker_blue"
+    },
+    "EnemyPrefap": {
+        "PrefabPath": "el UI/Demo/Prefabs/Slimus"
+    },
+    "Abilities": {
+        "Items": [
+            {
+                "ScriptName": "DealDamage",
+                "Amount": 3,
+                "Target": 0,
+                "EffectName": "todo"
+            }
+        ]
+    }
+}

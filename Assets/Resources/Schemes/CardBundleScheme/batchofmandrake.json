@@ -1,0 +1,42 @@
+{
+    "Name": {
+        "Text": "Batch of Mandrake"
+    },
+    "Description": {
+        "Text": "An ancient root that holds many secrets"
+    },
+    "Image": {
+        "ImagePath": "Spritesheets/spritesheet_48x48",
+        "SpriteName": "spritesheet_48x48_30"
+    },
+    "Cards": {
+        "Items": [
+            "mandrake_root",
+            "mandrake_root",
+            "mandrake_root",
+            "mandrake_root",
+            "mandrake_root",
+            "mandrake_root"
+        ]
+    },
+    "LevelUps": {
+        "Items": [
+            "maxhealth",
+            "maxstamina",
+            "maxessence",
+            "startingarmor",
+            "staminaperturn",
+            "essenceperturn",
+            "reducestaminacost",
+            "fullheal",
+            "staminaperturn",
+            "startingessence"
+        ]
+    },
+    "BundleType": {
+        "CardBundleType": 2
+    },
+    "PrimaryResouce": {
+        "Resource": 1
+    }
+}
